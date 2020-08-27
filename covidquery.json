@@ -1,0 +1,123 @@
+{"covidquery": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","hi","hello","excuse me","hi chatter box","hi how can you help me","can you help me", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you","hello what can I do for you?", "Hi there, how can I help?","hi, I am called Chatter Box","hey, how can i help you?","Great you are here! How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Hope you get well soon","Hope you recover soon!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","No mention","Come back soon","I am always available"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [" ","hgchbifddjrejh"," ndhhkhcwbuyguxnaghbs","bcdhmbzXaaaakjwj","nbcsdzjkcnzsiroporofwegCFDsatry"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand","Sorry,Come again","Sorry,I didnt get you","Can you please repeat"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["We can talk about corona virus.Do you have any queries?"],
+         "context": [""]
+        },
+        {"tag": "Corona",
+         "patterns": ["Symptoms of corona?", "Give me a list of symptoms for corona/covid", "What are the symptoms of corona/covid?", "Corona symptoms?" ],
+         "responses": ["Symptoms of Corona Virus are fever, tiredness, and dry cough. Some patients may have aches and pains as well."],
+         "context": [""]
+        },
+        {"tag": "QNA",
+         "patterns": ["Are there any other symptoms of corona/covid?", "Any other symptoms?", "Some other symptoms?", "Other symptoms? ", "Thats it or any more?" ],
+         "responses": ["Other symptoms are nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually."],
+         "context": [""]
+        },
+        {"tag": "Concern",
+         "patterns": ["Oh do i have corona", "Am i infected with corona?", "How to know if i have corona?", "Am i having corona? ", "Do i have corona?" ],
+         "responses": [" fever, tiredness, and dry cough are the symptoms of corona.If you have these symptoms then there are chances of you having corona "],
+         "context": [""]
+        },
+        {"tag": "Worried",
+         "patterns": ["Oh my god this is dangerous", "I'm worried whether I would be alive or no", "Will i recover from Corona?", "I am scared ", "OMG,I want to be alive!" ],
+         "responses": [" Do not panic.Most people (about 80%) recover from the disease without needing special treatment.So dont worry.You will recover soon"],
+         "context": [""]
+        },
+        {"tag": "Questions",
+         "patterns": ["How can i confirm whether i have covid?", "Where should i get myself tested?", "Any test centers?", "Corona test centers", "Hospitals testing for corona suspects" ],
+         "responses": ["You can go to Gandhi Hospital and get yourself tested.Also,you can visit any Government hospital or near by test center and get yourself tested"],
+         "context": [""]
+        },
+        {"tag": "Queries",
+         "patterns": ["I do not have corona but I am suffering from fever", "What to do if i have fever though iam covid negative?", "I have fever" ],
+         "responses": ["Oh,You need some medicines! Visit a doctor! Shall I navigate you to google maps so that you can find a hospital near by"],
+         "context": [""]
+        },
+        {"tag": "qQueries",
+         "patterns": ["okay what else?","Anything else","what else?" ],
+         "responses": ["Nothing for now just be careful!!","Nothing just take care"],
+         "context": [""]
+        },
+        {"tag": "Precautions",
+         "patterns": ["How to stay away from corona?", "Precautions for corona", "What to do if i dont want corona?", "Go away corona" ],
+         "responses": ["Clean your hands often. Use soap and water, or an alcohol-based hand rub.\nMaintain a safe distance from anyone who is coughing or sneezing.\nWear a mask when physical distancing is not possible.Don’t touch your eyes, nose or mouth."],
+         "context": [""]
+        },
+        {"tag": "Qnanswers",
+         "patterns": ["How is covid?", "How is corona in india", "How is corona in telangana", "coronameter", "covidmeter" ],
+         "responses": ["Corona is dangerous.In India the case are more than 25lakhs and in telangana they are 93k cases.Be careful and take precautions "],
+         "context": [""]
+        },
+        {"tag": "anything",
+         "patterns": ["Can you tell me anything about corona or covid?", "Do you know about corona?", "what is corona or covid?" ],
+         "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes.Retrospective investigations by Chinese authorities have identified human cases with onset of symptoms in early December 2019. While some of the earliest known cases had a link to a wholesale food market in Wuhan"],
+         "context": [""]
+        },
+        {"tag": "me",
+         "patterns": ["do you know kiranmaye?","Who created you?"],
+         "responses": ["Kiranmaye,yes..She is the one who created me."],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Navigating to Blood Pressure module"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure_search",
+         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
+         "responses": ["Please provide Patient ID", "Patient ID?"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "search_blood_pressure_by_patient_id",
+         "patterns": [],
+         "responses": ["Loading Blood pressure result for Patient"],
+         "context": [""]
+        },
+        {"tag": "pharmacy_search",
+         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
+         "responses": ["Please provide pharmacy name"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        }
+   ]
+}
