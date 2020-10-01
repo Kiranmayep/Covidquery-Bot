@@ -1,5 +1,5 @@
 # Covidquery-Bot
-A Chat Bot that is highly interactive and understands questions you pose.
+During these covid times i built a Chat Bot that is highly interactive and understands questions you pose.
 Built in Python using Natural Language Tool Kit, Keras and numpy.
 I have trained the bot with data on different queries people have about coronavirus.
 It interacts with people and answers their questions about the Covid-19 symptoms, precautions as well as navigates them to covid test centers.
